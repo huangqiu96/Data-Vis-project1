@@ -7,8 +7,8 @@
 			
 			</script>
 			<style type="text/css">
-			    #button1{
-			        font-family:helvetica;
+			 #button1{
+			font-family:helvetica;
 	                font-size:12px;
 	                color:#ffffff;
 	                text-align:center;
@@ -20,18 +20,33 @@
 	                letter-spacing:2px;
 	                cursor:pointer;
 			    }
+			#title{
+			font-family:helvetica;
+	                font-size:18px;
+	                color:#000000;
+			    }
+			#sub{
+			font-family:helvetica;
+	                font-size:10px;
+	                color:#000000;
+			    }	
 			</style>
 </head>
 		
 		
 		<body>
 		     <div id="title">
-	        My Screen Time Calculation </div><p></p>
+	        My Screen Time Calculation </div>
+			<p></p>
                      <div id="button1">Button 1</div>
-		<p>Social NetWork Creativity Entertainment Productivity</p>
-	             <script type="text/javascript">	
-	                var w = 1500;
-	                var h = 1200;
+			<p></p>
+			<div id="title">
+	        Blue: Social Network | Pink: entertainment | Cyan: Creativity | Grey: Productivity </div>
+	
+			
+	        <script type="text/javascript">	
+	                var w = 1000;
+	                var h = 1000;
 			var padding =10;
 	        //Imports a dataset from the file 
 		d3.csv("data.csv", function(data){
